@@ -13,6 +13,7 @@
         <module>ProductService</module>
         <module>OrderService</module>
         <module>ServiceRegistry</module>
+        <module>API-Gateway</module>
     </modules>
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
