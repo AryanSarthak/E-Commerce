@@ -38,5 +38,12 @@ public class OrderServiceImpl implements OrderService {
     public Order fallback(Long productId, int quantity, Exception ex) {
         return new Order(null, productId, quantity, 0);
     }
+
+    @Override
+    public Order getById(Long id) {
+        return repository.findById(id)
+                .orElseThrow(() -> new OrderNotFoundException(id));
+    }
+
 }
 
