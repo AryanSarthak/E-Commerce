@@ -2,6 +2,8 @@ package org.gevernova.productservice.service;
 
 import lombok.RequiredArgsConstructor;
 import org.gevernova.productservice.entity.Product;
+import org.gevernova.productservice.exception.InsufficientStockException;
+import org.gevernova.productservice.exception.ProductNotFoundException;
 import org.gevernova.productservice.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
