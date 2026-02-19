@@ -9,7 +9,10 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-
+    <modules>
+        <module>ProductService</module>
+        <module>OrderService</module>
+    </modules>
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
