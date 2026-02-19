@@ -4,6 +4,7 @@ import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import lombok.RequiredArgsConstructor;
 import org.gevernova.orderservice.dto.ProductResponse;
 import org.gevernova.orderservice.entity.Order;
+import org.gevernova.orderservice.exception.OrderNotFoundException;
 import org.gevernova.orderservice.external.service.ProductClient;
 import org.gevernova.orderservice.repository.OrderRepository;
 import org.springframework.stereotype.Service;
